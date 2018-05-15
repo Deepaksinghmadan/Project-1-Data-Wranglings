@@ -3,8 +3,10 @@ class A:
 		print("Parent initiation")
 
 class B(A):
-	def fun(self):
+	def __init__(self):
 		super().__init__()
 		print("child initiation")
 
 objB= B()
+
+
